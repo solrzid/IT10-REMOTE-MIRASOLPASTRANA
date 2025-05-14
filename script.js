@@ -13,3 +13,11 @@ sizeSelect.addEventListener('change', function(){
      let selectedSize=sizeSelect.value;
      paragraphs.style.fontSize = selectedSize;
 })
+
+let colorSelect = document.getElementById('colorSelect');
+let paragraphs1 = document.querySelector('p');
+
+colorSelect.addEventListener('change', function(){
+     let selectedcolor=colorSelect.value;
+     paragraphs.style.color = selectedcolor;
+})
